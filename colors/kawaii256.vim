@@ -1,9 +1,7 @@
-" Vim colorscheme
-"
-" Name:        kawaii256
-" Maintainers: Courtney Bodi <mliscourtney@gmail.com>
-" Last Change: December 21, 2015
-" License:     MIT <http://www.opensource.org/license/mit-license.html>
+" Name: kawaii256
+" Maintainer: Courtney Bodi <mliscourtney@gmail.com>
+" Last Change: December 26, 2015
+" Description: A 256 color colorscheme for vim
 
 " Settings so vim will use colors that look good on a dark background
 set background=dark
