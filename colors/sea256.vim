@@ -20,7 +20,7 @@ hi Statement            ctermfg=138     ctermbg=NONE    cterm=NONE
 hi PreProc              ctermfg=144     ctermbg=NONE    cterm=NONE
 hi Type                 ctermfg=066     ctermbg=NONE    cterm=NONE
 hi Special              ctermfg=103     ctermbg=NONE    cterm=NONE
-hi Underlined           ctermfg=109     ctermbg=NONE    cterm=underline
+hi Underlined           ctermfg=188     ctermbg=NONE    cterm=underline
 hi Ignore               ctermfg=142     ctermbg=NONE    cterm=bold
 hi Error                ctermfg=160     ctermbg=NONE    cterm=bold
 hi Todo                 ctermfg=253     ctermbg=NONE    cterm=bold
