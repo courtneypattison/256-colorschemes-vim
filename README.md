@@ -4,9 +4,9 @@ A collection of 256 color colorschemes for vim
 ## How to use
 1. Move the `colors` directory to your `.vim` directory: `mv path/to/colors ~/.vim`.
 2. Create a vim configuration file in your home directory: `mkdir ~.vimrc`.
-3. Enable syntax hilighting by adding this line to your `.vimrc`: `syntax enable`.
-4. Enable the use of 256 colors in your syntax hilighting by adding this line to your `.vimrc`: `set t_Co=256`.
-5. Choose the colorscheme you would like to use and set it by adding this line to your `.vimrc`: `colorscheme name_of_colorscheme` (e.g., `colorscheme Sea256`).
+3. Enable syntax hilighting by adding `syntax enable` to your `.vimrc`.
+4. Enable the use of 256 colors in your syntax hilighting by adding `set t_Co=256` to your `.vimrc`.
+5. Choose the colorscheme you would like to use and set it by adding `colorscheme name_of_colorscheme` (e.g., `colorscheme Sea256`) to your `.vimrc`.
 
 ## Optional settings
 ### Cursor line number
