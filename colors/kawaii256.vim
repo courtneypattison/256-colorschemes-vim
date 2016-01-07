@@ -60,7 +60,7 @@ hi! link MoreMsg        Normal
 hi! link NonText        Special
 hi Normal               ctermfg=015     ctermbg=235
 
-hi Pmenu                ctermfg=NONE    ctermbg=178     cterm=NONE
+hi! link Pmenu          DiffAdd
 hi PmenuSel             ctermfg=NONE    ctermbg=244     cterm=NONE
 hi PmenuSbar            ctermfg=NONE    ctermbg=247     cterm=NONE
 "hi PmenuThumb
@@ -85,5 +85,5 @@ hi Title                ctermfg=NONE    ctermbg=NONE    cterm=bold
 hi! link Visual         Cursor
 hi! link VisualNOS      Cursor
 hi! link WarningMsg     Error
-hi WildMenu             ctermfg=NONE    ctermbg=178     cterm=bold
+hi WildMenu             ctermfg=235     ctermbg=178     cterm=bold
 
