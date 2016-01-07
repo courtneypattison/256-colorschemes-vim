@@ -11,7 +11,7 @@ A collection of 256 color colorschemes that I've made for vim. If you're looking
 
 ## Optional settings
 ### Cursor line number
-If you would like the line number to be highlighted when your cursor is on that line, add `set cursorline` to your `.vimrc`.
+If you would like the line number to be highlighted when your cursor is on that line, add `set number` and `set cursorline` to your `.vimrc`.
 ### Color column
 If you would like columns 81 and 82 to be darker than the background color, add either `let &colorcolumn=join(range(81,82),",")` or `set textwidth=80 set colorcolumn=+1,+2` to your `.vimrc`. The former option will not affect text input, whereas, the latter sets the maximum width of text that can be inserted, breaking lines when they exceed 80 characters. Note: if you choose the latter option, you can remove the 80 charcter restriction for certain filetypes where it is not appropriate (e.g., `filetype on autocmd FileType html setlocal tw=0` will remove the restriction for HTML files).
 
