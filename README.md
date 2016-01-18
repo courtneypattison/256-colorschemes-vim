@@ -13,12 +13,18 @@ colorscheme sea256   # Or another colorscheme name
 set number
 set cursorline
 
-#If you would like columns 81 and 82 to be darker than the background color, add either `
-let &colorcolumn=join(range(81,82),",")
-## or uncomment the line below 
-# set textwidth=80 set colorcolumn=+1,+2
-# The former option will not affect text input, whereas, the latter sets the maximum width of text that can be inserted, breaking lines # when they exceed 80 characters. Note: if you choose the latter option, you can remove the 80 charcter restriction for certain
-# filetypes where it is not appropriate (e.g., `filetype on autocmd FileType html setlocal tw=0` will remove the restriction for HTML files).
+#If you would like columns 81 and 82 to be darker than the background color, add either
+let &colorcolumn="81,82"
+# or uncomment the next two lines 
+# set textwidth=80 
+# set colorcolumn=+1,+2
+# The former option will not affect text input, whereas, the latter sets the maximum width of text that can 
+# be inserted, breaking lines when they exceed 80 characters. 
+# Note: if you choose the latter option, you can remove the 80 character restriction for certain filetypes 
+# where it is not appropriate.
+# (e.g., 
+# filetype on autocmd FileType html setlocal tw=0
+# will remove the textwidth restriction for HTML files).
 ~~~~
 
 ## Sample Images
