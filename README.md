@@ -1,33 +1,33 @@
 # vim256colorschemes
-A collection of 256 color colorschemes that I've made for vim. If you're looking for a fairly comprehensive collection of 256 colorschemes made by various people, check out [noah's vim256-color repository](https://github.com/noah/vim256-color).
+A collection of 256 color colorschemes that I've made for vim. If you're looking 
+for a fairly comprehensive collection of 256 colorschemes made by various people, 
+check out [noah's vim256-color repository](https://github.com/noah/vim256-color).
 
 ## How to use
-1. Move the `colors` directory into `~/.vim` with  `mv path/to/colors ~/.vim` (`mkdir -p ~/.vim`if it doesn't exist)
-2. Create a vim configuration file in your home directory: `touch ~.vimrc` and add the lines:
+1. Move the `colors` directory into `~/.vim` with  `mv path/to/colors ~/.vim` 
+2. Create a vim configuration file in your home directory: `touch ~.vimrc` and add:
 ~~~~
+# Enable syntax hilighting
 syntax enable
-set t_Co=256         # Enable the use of 256 colors in your syntax highlighting
-colorscheme sea256   # Or another colorscheme name 
+# Enable the use of 256 colors in your syntax highlighting, alternatively, this
+# can be set in your terminal's preferences
+set t_Co=256
+# Choose colorscheme: replace 'sea256' with the name of the colorscheme you want
+colorscheme sea256 
 
-# If you would like the line number to be highlighted when your cursor is on that line
+# Show line numbers
 set number
+# Highlight line number when cursor is on that line
 set cursorline
 
-#If you would like columns 81 and 82 to be darker than the background color, add either
+# Make columns 81 and 82 darker than the background color
 let &colorcolumn="81,82"
-# or uncomment the next two lines 
-# set textwidth=80 
-# set colorcolumn=+1,+2
-# The former option will not affect text input, whereas, the latter sets the maximum width of text that can 
-# be inserted, breaking lines when they exceed 80 characters. 
-# Note: if you choose the latter option, you can remove the 80 character restriction for certain filetypes 
-# where it is not appropriate.
-# (e.g., 
-# filetype on autocmd FileType html setlocal tw=0
-# will remove the textwidth restriction for HTML files).
 ~~~~
 
 ## Sample Images
+
+### forest256
+![forest256](/../master/images/forest256.png?raw=true)
 
 ### ghibli256
 ![ghibli256](/../master/images/ghibli256.png?raw=true)
@@ -41,4 +41,5 @@ let &colorcolumn="81,82"
 ### sorbet256
 ![sorbet256](/../master/images/sorbet256.png?raw=true)
 
-Note: I use [tonsky's FiraCode](https://github.com/tonsky/FiraCode), a monospaced font with programming ligatures, for the sample images.
+Note: I use [tonsky's FiraCode](https://github.com/tonsky/FiraCode), a monospaced 
+font with programming ligatures, for the sample images.
