@@ -1,4 +1,4 @@
-# vim256colorschemes
+# 256 Colorschemes for Vim
 A collection of 256 color colorschemes that I've made for vim. If you're looking 
 for a fairly comprehensive collection of 256 colorschemes made by various people, 
 check out [noah's vim256-color repository](https://github.com/noah/vim256-color).
